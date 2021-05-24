@@ -4,9 +4,11 @@ namespace polymorphism_sample
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            new ReadProcess(ReadProcess.Setting.FILE);
+            new ReadProcess(ReadProcess.Setting.NETWORK);
+            Console.ReadLine();
         }
     }
 }
