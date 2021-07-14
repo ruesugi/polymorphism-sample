@@ -6,8 +6,8 @@ namespace polymorphism_sample
     {
         static void Main()
         {
-            new ReadProcess(ReadProcess.Setting.FILE);
-            new ReadProcess(ReadProcess.Setting.NETWORK);
+            new ReadProcess("file");
+            new ReadProcess("network");
             Console.ReadLine();
         }
     }
